@@ -1,0 +1,111 @@
+<!-- 
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, OCaml, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página con Fondo Vintage</title>
+    <style>
+        /* Fondo con colores vintage */
+        body {
+            background: linear-gradient(45deg, #f9e4b7, #f1a7b5, #b0e0e6, #f9c0bb); /* Colores vintage suaves */
+            background-size: 400% 400%; /* Para hacer que el gradiente se desplace */
+            animation: gradientAnimation 15s ease infinite; /* Animación que cambia el fondo */
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            text-align: center;
+            color: #3e3e3e;
+        }
+
+        /* Título centrado en la parte superior */
+        h1 {
+            margin-top: 30px;
+            font-size: 3em;
+            color: #3e3e3e; /* Color oscuro para que contraste con el fondo */
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Animación del fondo */
+        @keyframes gradientAnimation {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Cuadro pequeño en el lado derecho */
+        .image-box {
+            position: absolute;
+            right: 10%;
+            top: 30%; /* Puedes ajustar la posición vertical */
+            width: 200px;
+            height: auto;
+            padding: 10px;
+            background-color: #fff;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-box img {
+            width: 100%; /* La imagen ocupará todo el ancho del cuadro */
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Texto centrado en la parte inferior */
+        .text {
+            margin-top: 50px;
+            font-size: 1.2em;
+            padding: 0 15px;
+            text-align: center;
+        }
+
+        /* Estilo para el reproductor de audio */
+        audio {
+            margin-top: 30px;
+            width: 80%;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Título centrado -->
+    <h1>ART TECHNIQUES</h1>
+
+    <!-- Cuadro pequeño a la derecha para colocar imagen -->
+    <div class="image-box">
+        <img src="Ingles1.png">
+    </div>
+
+    <!-- Texto centrado debajo del cuadro -->
+    <div class="text">
+        <p>Hello friends, in this audio we talk about the different techniques of art and the aeuudio was made by: Valentina, Heysel, Dilan, Sthephany and Matheu.</p>
+    </div>
+
+    <!-- Reproductor de audio -->
+    <audio controls>
+        <source src="AudioIngles.mp3" type="audio/mp3">
+        Tu navegador no soporta la etiqueta de audio.
+    </audio>
+</body>
+</html>
